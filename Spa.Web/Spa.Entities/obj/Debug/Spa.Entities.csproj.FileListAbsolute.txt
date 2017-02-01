@@ -1,0 +1,5 @@
+C:\Git\spa\Spa.Web\Spa.Entities\bin\Debug\Spa.Entities.dll
+C:\Git\spa\Spa.Web\Spa.Entities\bin\Debug\Spa.Entities.pdb
+C:\Git\spa\Spa.Web\Spa.Entities\obj\Debug\Spa.Entities.csprojResolveAssemblyReference.cache
+C:\Git\spa\Spa.Web\Spa.Entities\obj\Debug\Spa.Entities.dll
+C:\Git\spa\Spa.Web\Spa.Entities\obj\Debug\Spa.Entities.pdb

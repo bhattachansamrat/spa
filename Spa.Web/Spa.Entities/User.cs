@@ -8,6 +8,10 @@ namespace Spa.Entities
 {
     public class User : IEntityBase
     {
+        public User()
+        {
+            UserRoles = new List<UserRole>();
+        }
         public int Id { get; set; }
         public string UserName { get; set; }
         public string FullName { get; set; }
@@ -16,5 +20,7 @@ namespace Spa.Entities
         public string Email { get; set; }
         public bool IsLocked { get; set; }
         public DateTime DateCreated { get; set; }
+
+        public virtual ICollection<UserRole> UserRoles { get; set; }
     }
 }

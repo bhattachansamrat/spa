@@ -1,0 +1,14 @@
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\Spa.Data.dll.config
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\Spa.Data.dll
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\Spa.Data.pdb
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\EntityFramework.dll
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\Spa.Entities.dll
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\Spa.Entities.pdb
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\EntityFramework.xml
+C:\Git\spa\Spa.Web\Spa.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.csprojResolveAssemblyReference.cache
+C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.dll
+C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.pdb
+C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.Migrations.initial.resources
+C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.csproj.GenerateResource.Cache

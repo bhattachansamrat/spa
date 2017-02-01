@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Spa">
+  <DataContextMoniker Name="/SpaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="043e0fa7-816b-4cc3-b4c9-73bde1dc60fb" absoluteBounds="2.875, 0.5, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/SpaDataContext/UserRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e55d214-a918-4178-b6eb-fd7362737462" absoluteBounds="2.89, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6928e61d-d7c7-422c-9f78-988ce1038ddb" absoluteBounds="2.875, 2.5, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/SpaDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79249a51-c4d1-4594-a082-baae90824d9b" absoluteBounds="2.89, 2.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f3bc6a59-e49f-4985-b0fb-e6c75589cd01" absoluteBounds="0.5, 0.5, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SpaDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b52717a8-ccb0-4aca-a909-8a4c43f376de" absoluteBounds="0.515, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.875 : 2.5); (3.875 : 1.8862939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SpaDataContext/User/User_UserRole" />
+      <nodes>
+        <classShapeMoniker Id="6928e61d-d7c7-422c-9f78-988ce1038ddb" />
+        <classShapeMoniker Id="043e0fa7-816b-4cc3-b4c9-73bde1dc60fb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 1.09699625651042); (2.875 : 1.09699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SpaDataContext/Role/Role_UserRole" />
+      <nodes>
+        <classShapeMoniker Id="f3bc6a59-e49f-4985-b0fb-e6c75589cd01" />
+        <classShapeMoniker Id="043e0fa7-816b-4cc3-b4c9-73bde1dc60fb" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
