@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spa.Entities", "Spa.Entitie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spa.Data", "Spa.Data\Spa.Data.csproj", "{9D88B9DE-0DF5-49F6-9BC6-3E28D84960FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spa.Services", "Spa.Services\Spa.Services.csproj", "{F3406EBE-8E7B-411A-AE79-06A0C468E3AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9D88B9DE-0DF5-49F6-9BC6-3E28D84960FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D88B9DE-0DF5-49F6-9BC6-3E28D84960FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D88B9DE-0DF5-49F6-9BC6-3E28D84960FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3406EBE-8E7B-411A-AE79-06A0C468E3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3406EBE-8E7B-411A-AE79-06A0C468E3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3406EBE-8E7B-411A-AE79-06A0C468E3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3406EBE-8E7B-411A-AE79-06A0C468E3AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

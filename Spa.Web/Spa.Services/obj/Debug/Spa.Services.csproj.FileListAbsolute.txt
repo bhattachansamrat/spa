@@ -1,0 +1,11 @@
+C:\Git\spa\Spa.Web\Spa.Services\bin\Debug\Spa.Services.dll
+C:\Git\spa\Spa.Web\Spa.Services\bin\Debug\Spa.Services.pdb
+C:\Git\spa\Spa.Web\Spa.Services\bin\Debug\Spa.Data.dll
+C:\Git\spa\Spa.Web\Spa.Services\bin\Debug\Spa.Entities.dll
+C:\Git\spa\Spa.Web\Spa.Services\bin\Debug\EntityFramework.dll
+C:\Git\spa\Spa.Web\Spa.Services\bin\Debug\Spa.Data.pdb
+C:\Git\spa\Spa.Web\Spa.Services\bin\Debug\Spa.Entities.pdb
+C:\Git\spa\Spa.Web\Spa.Services\bin\Debug\EntityFramework.xml
+C:\Git\spa\Spa.Web\Spa.Services\obj\Debug\Spa.Services.csprojResolveAssemblyReference.cache
+C:\Git\spa\Spa.Web\Spa.Services\obj\Debug\Spa.Services.dll
+C:\Git\spa\Spa.Web\Spa.Services\obj\Debug\Spa.Services.pdb
