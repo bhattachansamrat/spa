@@ -7,6 +7,8 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
+using Spa.Web.App_Start;
+using System.Web.Optimization;
 
 namespace Spa.Web
 {
@@ -14,10 +16,11 @@ namespace Spa.Web
     {
         void Application_Start(object sender, EventArgs e)
         {
-            // Code that runs on application startup
+            AutofacWebApiConfig.Initialize(GlobalConfiguration.Configuration);
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);            
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundle(BundleTable.Bundles);
         }
     }
 }

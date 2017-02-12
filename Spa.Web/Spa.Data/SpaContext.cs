@@ -16,6 +16,7 @@ namespace Spa.Data
         public IDbSet<User> UserSet { get; set; }
         public IDbSet<Role> RoleSet { get; set; }
         public IDbSet<UserRole> UserRoleSet { get; set; }
+        public IDbSet<Error> ErrorSet { get; set; }
         #endregion
 
         public virtual void Commit()

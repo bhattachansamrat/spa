@@ -12,3 +12,4 @@ C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.dll
 C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.pdb
 C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.Migrations.initial.resources
 C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.csproj.GenerateResource.Cache
+C:\Git\spa\Spa.Web\Spa.Data\obj\Debug\Spa.Data.Migrations.ErrorTable.resources
