@@ -216,6 +216,12 @@
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\jquery-1.9.1.min.js" />
+    <Content Include="scripts\spa\app.js" />
+    <Content Include="scripts\spa\modules\common.core.js" />
+    <Content Include="scripts\spa\modules\common.ui.js" />
+    <Content Include="scripts\spa\services\apiService.js" />
+    <Content Include="scripts\spa\services\membershipService.js" />
+    <Content Include="scripts\spa\services\notificationService.js" />
     <Content Include="scripts\vendor\angular-base64.js" />
     <Content Include="scripts\vendor\angular-cookies.js" />
     <Content Include="scripts\vendor\angular-route.js" />
@@ -233,6 +239,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Dbml\Spa.designer.cs">
       <AutoGen>True</AutoGen>
@@ -245,6 +252,8 @@
     <Compile Include="Infrastructure\Core\ApiBaseController.cs" />
     <Compile Include="Infrastructure\Extension\RequestMessageHandler.cs" />
     <Compile Include="Infrastructure\MessageHandler\SpaMessageHandler.cs" />
+    <Compile Include="Infrastructure\Validators\AccountViewModelValidators.cs" />
+    <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -267,9 +276,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Spa.Data\Spa.Data.csproj">
       <Project>{9d88b9de-0df5-49f6-9bc6-3e28d84960fb}</Project>

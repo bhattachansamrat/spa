@@ -28,6 +28,11 @@ namespace Spa.Web.App_Start
                 "~/scripts/vendor/toastr.js",
                 "~/scripts/vendor/ui-bootstrap-tpls-0.13.1.js"
                 ));
+
+            bundle.Add(new ScriptBundle("~/script/spa").Include("~/scripts/spa/modules/*.js", 
+                "~/scripts/spa/app.js",
+                "~/scripts/spa/services/apiService.js",
+                "~/scripts/spa/services/notificationService.js"));
         }
     }
 }
